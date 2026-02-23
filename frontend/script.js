@@ -7,7 +7,7 @@ async function sendData() {
 
     try {
         // This connects to the route we created in server.js
-        const response = await fetch('https://login-backend.onrender.com/login', {
+        const response = await fetch('https://simple-login-project.onrender.com', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
